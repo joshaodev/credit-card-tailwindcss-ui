@@ -4,6 +4,17 @@
 
 
 /* My classes compose */
+.card-info-container {
+    @apply w-full bg-center rounded-xl mb-6 p-8;
+    height: 300px;
+    background-image: url('../image/milad-fakurian-E8Ufcyxz514-unsplash.jpg')
+}
+
+.card-info {
+    @apply bg-white bg-opacity-30 w-full h-full rounded-3xl p-8;
+    @apply border border-white shadow-lg text-white;
+}
+
 .form-grid {
     @apply grid gap-4;
     grid-template-columns: 1fr 150px;

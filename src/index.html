@@ -7,26 +7,44 @@
     <link rel="stylesheet" href="./public/css/main.css">
 </head>
 <body>
-    <div class="w-[600px] mx-auto mt-12 shadow-lg p-6 rounded-xl border border-gray-100">
+    <div class="w-[600px] mx-auto my-12 shadow-lg p-6 rounded-xl border border-gray-100">
+        <section class="card-info-container">
+            <div class="card-info">
+                <div class="w-3/4">
+                    <h3 class="h-32 text-xl tracking-wider font-semibold">Untitled.</h3>
+                    <div class="w-full flex justify-between items-center mb-2">
+                        <div class="uppercase text-xl">Josemar Oatanha</div>
+                        <div>06/24</div>
+                    </div>
+                    <div class="flex justify-between font-mono text-2xl">
+                        <span>9644</span>
+                        <span>1432</span>
+                        <span>2338</span>
+                        <span>2202</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <h3 class="mb-2 font-light tracking-wide text-2xl">Update payment method</h3>
         <p class="mb-4 text-gray-500 text-lg">Update your card details.</p>
         <form>
             <div class="form-grid">
                 <div class="flex flex-col">
                     <label class="form-label" for="txtNameOnCard">Name on card</label>
-                    <input type="text" class="form-input" name="name" id="txtNameOnCard">
+                    <input type="text" class="form-input" name="name" id="txtNameOnCard" placeholder="Card user name">
                 </div>
                 <div class="flex flex-col">
                     <label class="form-label" for="txtExpiry">Expiry</label>
-                    <input type="text" class="form-input" name="expiry" id="txtExpiry">
+                    <input type="text" class="form-input" name="expiry" id="txtExpiry" placeholder="dd/MM">
                 </div>
                 <div class="flex flex-col">
                     <label class="form-label" for="txtCardNumber">Card Number</label>
-                    <input type="text" class="form-input" name="card_number" id="txtCardNumber">
+                    <input type="text" class="form-input" name="card_number" id="txtCardNumber" placeholder="Card number">
                 </div>
                 <div class="flex flex-col">
                     <label class="form-label" for="txtCvv">Cvv</label>
-                    <input type="text" class="form-input" name="cvv" id="txtCvv">
+                    <input type="password" class="form-input" name="cvv" id="txtCvv" placeholder="****">
                 </div>
             </div>
             <div class="grid gap-4 grid-cols-2 mt-8 textlg">
