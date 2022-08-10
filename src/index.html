@@ -7,8 +7,33 @@
     <link rel="stylesheet" href="./public/css/main.css">
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+    <div class="w-[600px] mx-auto mt-12 shadow-lg p-6 rounded-xl border border-gray-100">
+        <h3 class="mb-2 font-light tracking-wide text-2xl">Update payment method</h3>
+        <p class="mb-4 text-gray-500 text-lg">Update your card details.</p>
+        <form>
+            <div class="form-grid">
+                <div class="flex flex-col">
+                    <label class="form-label" for="txtNameOnCard">Name on card</label>
+                    <input type="text" class="form-input" name="name" id="txtNameOnCard">
+                </div>
+                <div class="flex flex-col">
+                    <label class="form-label" for="txtExpiry">Expiry</label>
+                    <input type="text" class="form-input" name="expiry" id="txtExpiry">
+                </div>
+                <div class="flex flex-col">
+                    <label class="form-label" for="txtCardNumber">Card Number</label>
+                    <input type="text" class="form-input" name="card_number" id="txtCardNumber">
+                </div>
+                <div class="flex flex-col">
+                    <label class="form-label" for="txtCvv">Cvv</label>
+                    <input type="text" class="form-input" name="cvv" id="txtCvv">
+                </div>
+            </div>
+            <div class="grid gap-4 grid-cols-2 mt-8 textlg">
+                <button class="bg-gray-50 w-full border border-gray-400 py-3 rounded-lg">Cancel</button>
+                <button class="w-full border border-gray-400 py-3 rounded-lg bg-violet-600 text-white" type="submit">Update</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
