@@ -749,7 +749,7 @@ video {
 }
 
 .form-input {
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   border-width: 1px;
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
